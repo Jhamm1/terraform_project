@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "**/.terraform/*": "explorerExcludedFiles",
+    "*.tfstate": "explorerExcludedFiles",
+    "*.tfstate.*": "explorerExcludedFiles",
+    "crash.log": "explorerExcludedFiles",
+    "override.tf": "explorerExcludedFiles",
+    "override.tf.json": "explorerExcludedFiles",
+    "*_override.tf": "explorerExcludedFiles",
+    "*_override.tf.json": "explorerExcludedFiles"
+  }
+}
