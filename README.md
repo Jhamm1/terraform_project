@@ -52,5 +52,9 @@ Take the ouput and enter it into http://www.webgraphviz.com/
 - Different settings for every provider
 - Providers gives you access to resources
 
+Destroy all resourses on aws created by Terraform
 
+terraform plan -destroy -out destroy.pln
+
+terraform apply destroy.pln
 
